@@ -1,6 +1,5 @@
 #  Data Safe HOL Lab 1
-
-## Provision an ATP-S instance and import data
+Provision an ATP-S instance and import data
 
 ## Objectives
 
