@@ -2,11 +2,15 @@
 
 ## Workshop Overview ##
 
-Description of the workshop.
+This workshop allows you to discover the features of Data Safe and use them to manage security features in an Autonomous Database.
 
 ## Workshop Requirements
 
-Specify Workshop requirements here
+To complete this lab, you need to have the following:
+* Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
+* A compartment enabled with permission to create and use resources
+* Demo data files employees.csv and emp_extended.csv
+
 
 ## Agenda
 
