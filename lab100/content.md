@@ -106,7 +106,9 @@ In this lab section you will connect to the ATP with Oracle SQL Developer and im
 
 Using SQL Developer Worksheet, run the following statements to create a new schema
 
-
+````
+I want to copy<copy>grant DWROLE to hcm;</copy>this
+````
 
 `create user hcm identified by "OraclePTS#2020";`
 
