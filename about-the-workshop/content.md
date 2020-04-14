@@ -1,4 +1,4 @@
-# Title in About-the-workshop folder #
+# Data Safe Workshop (PTS) #
 
 ## Workshop Overview ##
 
