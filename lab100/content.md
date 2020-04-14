@@ -107,14 +107,12 @@ In this lab section you will connect to the ATP with Oracle SQL Developer and im
 Using SQL Developer Worksheet, run the following statements to create a new schema
 
 ````
-I want to copy<copy>grant DWROLE to hcm;</copy>this
+<copy>
+`create user hcm identified by "OraclePTS#2020";
+`grant DWROLE to hcm;
+`grant unlimited tablespace to hcm;
+</copy>
 ````
-
-`create user hcm identified by "OraclePTS#2020";`
-
-`grant DWROLE to hcm;`
-
-`grant unlimited tablespace to hcm;`
 
 Then create a new connection as the HCM user and connect.
 
