@@ -2,7 +2,6 @@
 
 ## Objectives
 
-
 * Sign in to Oracle Cloud Infrastructure
 * Create an Autonomous Database
 * Connect with SQL Developer
@@ -108,9 +107,9 @@ Using SQL Developer Worksheet, run the following statements to create a new sche
 
 ````
 <copy>
-`create user hcm identified by "OraclePTS#2020";
-`grant DWROLE to hcm;
-`grant unlimited tablespace to hcm;
+create user hcm identified by "OraclePTS#2020";
+grant DWROLE to hcm;
+grant unlimited tablespace to hcm;
 </copy>
 ````
 

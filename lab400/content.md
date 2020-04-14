@@ -1,12 +1,11 @@
-# Lab 3 - Provision Audit and Alert Policies #
-
+# Lab 4 - Running Security Assessments with Data Safe  #
 
 ## Objectives
 
-* Provision audit and alert policies on a target database
-* View details for an audit trail in Oracle Data Safe
-* Enable a custom audit policy on a target database
-
+*	Run a Security Assessment job against a target database
+*	Analyze the security assessment results
+*	Run a User Assessment job against a target database
+*	Analyze the user assessment results
 
 ## Disclaimer ##
 
@@ -17,9 +16,7 @@ The following is intended to outline our general product direction. It is intend
 To complete this lab, you need to have the following:
 * Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
 * A compartment enabled with permission to create and use resources
-* The ATP-S instance provisioned in Lab 1
-* The access privileges configured in Lab 2
-
+* The ATP-S instance provisioned in Lab 1-2-3
 
 ## Acknowledgements ##
 

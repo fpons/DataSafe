@@ -1,12 +1,11 @@
-# Lab 3 - Provision Audit and Alert Policies #
-
+# Lab 5 - Discover and Mask Sensitive Data   #
 
 ## Objectives
 
-* Provision audit and alert policies on a target database
-* View details for an audit trail in Oracle Data Safe
-* Enable a custom audit policy on a target database
-
+*	View sensitive data in your Autonomous Transaction Processing (ATP) database
+*	Discover sensitive data by using Data Discovery
+*	Mask sensitive data by using Data Masking
+*	Validate the masked data in your ATP database
 
 ## Disclaimer ##
 
@@ -15,10 +14,9 @@ The following is intended to outline our general product direction. It is intend
 ## Requirements ##
 
 To complete this lab, you need to have the following:
-* Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
-* A compartment enabled with permission to create and use resources
-* The ATP-S instance provisioned in Lab 1
-* The access privileges configured in Lab 2
+*	Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
+*	A compartment enabled with permission to create and use resources
+*	The ATP-S instance provisioned in Lab 1
 
 
 ## Acknowledgements ##
