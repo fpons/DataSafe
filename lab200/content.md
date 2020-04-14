@@ -17,6 +17,50 @@ To complete this lab, you need to have the following:
 •	A compartment enabled with permission to create and use resources
 •	The ATP-S instance provisioned in Lab 1
 
+## STEP 1: Register to Data Safe
+
+The Data Safe service has already been enabled for your tenancy and region.
+However, it is still necessary to register an ATP-S instance before it can be managed by Data Safe.
+From the OCI console, navigate to the details of your Autonomous Database instance and click on Register in the Data Safe section at the right bottom of the page
+
+![Alternative text](./images/img01.png " ")
+
+Click “Confirm”
+The instance is registered after a few moments.
+
+![Alternative text](./images/img02.png " ")
+
+You can now  access to Data Safe console from the link provided. Alternatively, use the Data Safe menu in the main OCI console navigator (we’ll connect in Step 3).
+
+![Alternative text](./images/img03.png " ")
+
+## STEP 2: Grant Roles for the Oracle Data Safe Service Account
+
+Data Safe uses a pre-created ATP user (DS$ADMIN) that is enabled when the instance is registered.
+The features that you can use depend on the roles granted to the Oracle Data Safe service account on that target database.
+Note that some basic roles are granted by default, allowing ADMIN to run simple security and user assessments.
+
+To enable all other Data Safe features, connect to ATP-S with SQL Developer as user ADMIN and execute the following GRANTs:
+
+````
+<copy>
+EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$DATA_DISCOVERY_ROLE');
+EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$DATA_MASKING_ROLE');
+EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$AUDIT_SETTING_ROLE'); 
+</copy>
+````
+
+![Alternative text](./images/img04.png " ")
+
+## STEP 3: Connect to Data Safe Service Console
+
+Connect to Data Safe console by using one of links mentioned at the end of Step 1.
+
+You should be able to use the same username and password as for your OCI tenancy.
+
+![Alternative text](./images/img05.png " ")
+
+Continue with Lab 3.
 
 ## Acknowledgements ##
 
