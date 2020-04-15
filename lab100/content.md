@@ -124,6 +124,8 @@ From the Connections navigator, open the connection as **HCM** and right-click o
 
 Browse to the **employees.csv** file and select it.
 
+[File employees.csv](./files/employees.csv)
+
 ![Page](./images/img12.png " ")
 
 Click Next ad enter **EMPLOYEES** for table name
