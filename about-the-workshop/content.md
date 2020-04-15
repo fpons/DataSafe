@@ -9,32 +9,31 @@ This workshop allows you to discover the features of Data Safe and use them to m
 To complete this lab, you need to have the following:
 * Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
 * A compartment enabled with permission to create and use resources
-* Demo data files employees.csv and emp_extended.csv
-
 
 ## Agenda
 
 Specify the labs (and a longer explanation of the labs) here. Example:
 
-- **Lab 0 :** Setup the Lab Environment
 
-This lab introduces the student lab environment and contains the steps to setup the student desktop for connecting to the lab virtual machine.
+- **Lab 1 :** Provision an ATP-S instance and import data
 
-- **Lab 1 :** First lab title
+In this lab, you will provision an Automous Database instance and import demo data, inlcuding sensitive data (e.g. credit card numbers)
 
-This section describes the content of the lab. You can explain a bit what it will do and what to end-goal is.
+- **Lab 2 :** Register ATP-S instance to Data Safe
 
-- **Lab 2 :** Second lab title
+This section will register the database with Data Safe, so that we can use Data Safe to manager security features in our database.
 
-This section describes the content of the lab. You can explain a bit what it will do and what to end-goal is.
+- **Lab 3 :** Provision Audit and Alert Policies
 
-- **Lab 3 :** Third lab title
+In this lab, we'll explore the database auditing features provided by Data Safe.
 
-This section describes the content of the lab. You can explain a bit what it will do and what to end-goal is.
+- **Lab 4 :** Running Security Assessments with Data Safe
 
-- **Lab 4 :** Fourth lab title
+This lab will run an initial assessment with Data Safe, similar to the one provided through the Oracle Database Security Assessment Tool.
 
-This section describes the content of the lab. You can explain a bit what it will do and what to end-goal is.
+- **Lab 5 :** Discover and Mask Sensitive Data
+
+This section will allow us to discover and anonymize sensitive data in our demo database.
 
 ## Access the labs ##
 
@@ -49,4 +48,4 @@ This section describes the content of the lab. You can explain a bit what it wil
 
 ## Acknowledgements
 
-- **Author** - Robert Pastijn, Database Product Management, PTS EMEA - April 2020
+- **Author** - Oracle Database Product Management, PTS EMEA - April 2020
