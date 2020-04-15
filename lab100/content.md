@@ -60,11 +60,14 @@ Enter all required details:
 
 This process will take a few minutes to complete…
 
+<!---
+![Alt text](./images/img04.png " ")  ==>
+![Alt text](./images/img05.png " ")
+--->
 
-![Page](./images/img04.png " ")  ==>
-![Page](./images/img05.png " ")
-
-
+<img src="./images/img04.png" alt="picture" width="100" height="100" />
+==>
+<img src="./images/img05.png" alt="picture" width="100" height="100" />
 
 ## STEP 3: Download Client Credentials (Wallet)
 
