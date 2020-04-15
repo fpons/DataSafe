@@ -20,4 +20,4 @@ To complete this lab, you need to have the following:
 
 ## Acknowledgements ##
 
-- **Author** - François Pons, Database Product Management, PTS EMEA - April 2020
+- **Author** - Oracle Database Product Management, PTS EMEA - April 2020

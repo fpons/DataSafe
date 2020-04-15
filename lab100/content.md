@@ -161,4 +161,4 @@ Continue with **Lab 2**.
 
 ## Acknowledgements ##
 
-- **Author** - François Pons, Database Product Management, PTS EMEA - April 2020
+- **Author** - Oracle Database Product Management, PTS EMEA - April 2020
