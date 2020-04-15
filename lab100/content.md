@@ -108,9 +108,9 @@ In this lab section you will connect to the ATP with Oracle SQL Developer and im
 
 First download the following two files containing demo data and save them locally.
 
-[Download **employees.csv** and save it locally.](./files/employees.csv)
+Download [**employees.csv**](./files/employees.csv) and save it locally.
 
-[Download **emp_extended.csv** and save it locally.](./files/emp_extended.csv)
+Download [**emp_extended.csv**](./files/emp_extended.csv) and save it locally.
 
 Using SQL Developer Worksheet, run the following statements to create a new schema
 
@@ -135,11 +135,11 @@ Browse to the **employees.csv** file and select it.
 
 ![Page](./images/img12.png " ")
 
-Click Next ad enter **EMPLOYEES** for table name
+Click Next ad enter **EMPLOYEES** for table name.
 
 Then click Next three times and Finish to import table EMPLOYEES.
 
-Replicate the same steps to import table **EMP_EXTENDED** from emp_extended.csv
+Replicate the same steps to import table **EMP\_EXTENDED** from emp\_extended.csv.
 
 
 ## STEP 6: Gather statistics on the demo schema
