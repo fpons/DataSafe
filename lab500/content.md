@@ -99,6 +99,99 @@ Click the **Close** button (**X**) to close the expanded chart. Do not exit the 
 
 ![alt text](./images/img17.png " ")
 
+## STEP 2: Mask sensitive data by using Data Masking
+
+The Data Masking wizard generates a masking policy for your target database based on a sensitive data model. In the wizard, you select the sensitive columns that you want to mask and the masking formats to use.
+Click **Exit**.
+
+Now select **Data Masking** from the **Home** menu. Select your database and click **Continue**.
+
+![alt text](./images/img18.png " ")
+
+Choose to create a new masking policy:
+
+*	Making policy : Create
+*	Masking policy name : MASK_HCM
+*	Sensitive Data Modile : Pick from Library
+*	Resource Group : Default Resource Group
+
+![alt text](./images/img19.png " ")
+
+On the **Select Target for Data Masking** page, select your target database and make sure “Update the SDM with the target”  is selected. Click **Continue**.
+
+![alt text](./images/img20.png " ")
+
+On the Masking Policy page, click on View Sensitive Columns
+
+![alt text](./images/img21.png " ")
+
+Make sure all sensitive columns are selected and click **Save and Continue**.
+
+![alt text](./images/img22.png " ")
+
+Move the **Expand All** slider to the right to view all of the sensitive columns. Scroll down the page to view the default masking format selected for each sensitive column.
+
+![alt text](./images/img24.png " ")
+
+For instance, **FIRST_NAME** will be asked by selecting a **Random Name**
+
+Click the arrow to the right of the masking format to view other masking formats.
+
+![alt text](./images/img25.png " ")
+
+Next to the arrow, click the Edit Format button (pencil icon).
+
+![alt text](./images/img26.png " ")
+
+In the **Edit Format** dialog box, view the description, examples, and default configuration for the masking format.
+This is where you can modify a masking format. Click **Cancel**.
+At the bottom of the page, click **Confirm Policy**, and then wait a moment while Data Masking creates the masking policy.
+
+![alt text](./images/img27.png " ")
+
+On the **Schedule** the Masking Job page, leave **Right Now** selected, and then click **Review**.
+
+![alt text](./images/img28.png " ")
+
+On the **Review and Submit** page, review the information, and then click **Submit** to start the data masking job.
+
+![alt text](./images/img29.png " ")
+
+Wait for the data masking job to finish. It takes a couple of minutes. You can follow the status of the job on the **Masking Jobs** page. When the job is completed successfully, click **Report**.
+
+![alt text](./images/img30.png " ")
+
+Examine the *Data Masking* report.
+
+The report shows you how many values, sensitive types, tables, and columns were masked.
+For each sensitive column, the report shows you a sample masked value (if available), the masking format used, and the number of rows masked.
+
+The table also shows you column counts for the sensitive categories and types.
+
+![alt text](./images/img31.png " ")
+
+Click Generate Report.
+
+![alt text](./images/img32.png " ")
+
+In the **Generate Report** dialog box, leave **PDF** selected, enter **HCM** Masking  for the description, ensure the default resource group is selected, and then click **Generate Report**.
+
+![alt text](./images/img33.png " ")
+
+Wait for the report to generate. When it's generated, click Download Report.
+Review the report, and then close it.
+
+![alt text](./images/img34.png " ")
+
+## STEP 3: View masked data in SQL Developer
+
+Now you can use SQL Developer again yo view the anonymized data in the HCM schema.
+
+![alt text](./images/img35.png " ")
+
+End of Lab 5.
+
+
 ## Acknowledgements ##
 
 - **Author** - François Pons, Database Product Management, PTS EMEA - April 2020
