@@ -103,6 +103,12 @@ In this lab section you will connect to the ATP with Oracle SQL Developer and im
 
 ## STEP 5: Import demo tables
 
+First download the following two files containing demo data and save them locally.
+
+[Download **employees.csv** and save it locally.](./files/employees.csv)
+
+[Download **emp_extended.csv** and save it locally.](./files/emp_extended.csv)
+
 Using SQL Developer Worksheet, run the following statements to create a new schema
 
 ````
@@ -123,8 +129,6 @@ From the Connections navigator, open the connection as **HCM** and right-click o
 ![Page](./images/img11.png " ")
 
 Browse to the **employees.csv** file and select it.
-
-[File employees.csv](./files/employees.csv)
 
 ![Page](./images/img12.png " ")
 
