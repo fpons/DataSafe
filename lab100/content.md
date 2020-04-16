@@ -52,8 +52,8 @@ Enter all required details:
 * DB version : 19c
 * CPU Core Count :	1
 * Storage (TB) : 1
-* Auto scaling : Leave Unchecked
-* Password :	OraclePTS#2020
+* Auto scaling : **Leave Unchecked**
+* Password :	**OraclePTS#2020**
 * Network access : Leave default selection
 * License Type : BYOL (My Organization Already owns Oracle Database…)
 
@@ -147,6 +147,11 @@ Replicate the same steps to import table **EMP\_EXTENDED** from emp\_extended.cs
 Using your SQL Developer Worksheet connection as ADMIN, run the following statements to gather statistics
 exec DBMS_STATS.GATHER_SCHEMA_STATS('HCM');
 
+````
+<copy>
+exec DBMS_STATS.GATHER_SCHEMA_STATS('HCM');
+</copy>
+````
 
 ![Page](./images/img13.png " ")
 
