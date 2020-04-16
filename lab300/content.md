@@ -80,7 +80,7 @@ On the **Start Audit Collection** page, notice the following defaults:
 
 Select your database and click **Start** to start collecting audit data.
 
-A message at the top of the page states the **UNIFIED_AUDIT_TRAIL** is successfully created.
+A message at the top of the page states the **UNIFIED\_AUDIT\_TRAIL** is successfully created.
 
 The Collection State column indicates that collection is **LOADING**, then **STARTING**, and then **COLLECTING**.
 

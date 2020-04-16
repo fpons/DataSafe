@@ -23,9 +23,10 @@ To complete this lab, you need to have the following:
 Sign in to Data Safe Service Console using the same username and password as for your OCI tenancy.
 You can use Security Assessment to evaluate the current security state of your target databases and receive recommendations on how to mitigate the identified risks.
 
-* In the Oracle Data Safe Console, click the **Home** tab, and then click the **Security Assessment** tab.
+In the Oracle Data Safe Console, click the **Home** tab, and then click the **Security Assessment** tab.
 
-![alt text](./images/img01.png " ")
+<!--![alt text](./images/img01.png " ")-->
+<img src="./images/img01.png" alt="picture" width="250" height="400" />
 
 On the **Security Assessment** page, select the check box for your target database, and then click **Assess**. The assessment job will take a few minutes to complete.
 
@@ -69,7 +70,8 @@ For, instance, expand the Advisory category and find out that Database Vault or 
 You can use User Assessment to identify user settings and risks on your target databases.
 *	Click the User Assessment tab.
 
-![alt text](./images/img08.png " ")
+<!--![alt text](./images/img08.png " ")-->
+<img src="./images/img08.png" alt="picture" width="250" height="400" />
 
 On the **User Assessment** page, select the check box for your target database, and then click **Assess**.
 
