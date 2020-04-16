@@ -23,7 +23,8 @@ To complete this lab, you need to have the following:
 The Data Discovery wizard generates a sensitive data model that contains sensitive columns in your target database. When working in the wizard, you select sensitive types that you want to discover in your target database.
 From the OCI navigation menu, select Data Safe.
 
-![alt text](./images/img01.png " ")
+<!--![alt text](./images/img01.png " ")-->
+<img src="./images/img01.png" alt="picture" width="250" height="400" />
 
 Click Service Console.
 
@@ -33,7 +34,8 @@ Sign in to Oracle Data Safe using your Oracle Cloud Infrastructure credentials.
 The **Home** tab is displayed when you first sign in to Oracle Data Safe.
 Access the Data Discovery wizard by clicking the **Data Discovery** tab.
 
-![alt text](./images/img03.png " ")
+<!--![alt text](./images/img03.png " ")-->
+<img src="./images/img03.png" alt="picture" width="250" height="400" />
 
 On the Select Target for Sensitive Data Discovery page, select your target database, and then click Continue.
 
@@ -95,7 +97,7 @@ Notice that the **Identification** Info category is divided into two smaller cat
 
 ![alt text](./images/img16.png " ")
 
-Click the **Close** button (**X**) to close the expanded chart. Do not exit the wizard.
+Click the **Close** button (**X**) to close the expanded chart.
 
 ![alt text](./images/img17.png " ")
 
@@ -110,18 +112,18 @@ Now select **Data Masking** from the **Home** menu. Select your database and cli
 
 Choose to create a new masking policy:
 
-*	Making policy : Create
-*	Masking policy name : MASK_HCM
-*	Sensitive Data Modile : Pick from Library
-*	Resource Group : Default Resource Group
+*	Making policy : **Create**
+*	Masking policy name : **MASK_HCM**
+*	Sensitive Data Modile : **Pick from Library**
+*	Resource Group : **Default Resource Group**
 
 ![alt text](./images/img19.png " ")
 
-On the **Select Target for Data Masking** page, select your target database and make sure “Update the SDM with the target”  is selected. Click **Continue**.
+On the **Select Sensitive Data Model** page, select **SDM_HCM** and make sure “Update the SDM with the target”  is selected. Click **Continue**.
 
 ![alt text](./images/img20.png " ")
 
-On the Masking Policy page, click on View Sensitive Columns
+On the **Sensitive Data Model: SDM_HCM** page, click on View Sensitive Columns
 
 ![alt text](./images/img21.png " ")
 
@@ -131,11 +133,9 @@ Make sure all sensitive columns are selected and click **Save and Continue**.
 
 Move the **Expand All** slider to the right to view all of the sensitive columns. Scroll down the page to view the default masking format selected for each sensitive column.
 
-![alt text](./images/img24.png " ")
+For instance, **FIRST_NAME** will be masked by selecting a **Random Name**
 
-For instance, **FIRST_NAME** will be asked by selecting a **Random Name**
-
-Click the arrow to the right of the masking format to view other masking formats.
+Click the arrow to the right of the masking format to view other available masking formats.
 
 ![alt text](./images/img25.png " ")
 
@@ -144,7 +144,10 @@ Next to the arrow, click the Edit Format button (pencil icon).
 ![alt text](./images/img26.png " ")
 
 In the **Edit Format** dialog box, view the description, examples, and default configuration for the masking format.
-This is where you can modify a masking format. Click **Cancel**.
+This is where you can modify a masking format.
+
+Click **Cancel**.
+
 At the bottom of the page, click **Confirm Policy**, and then wait a moment while Data Masking creates the masking policy.
 
 ![alt text](./images/img27.png " ")
@@ -161,7 +164,7 @@ Wait for the data masking job to finish. It takes a couple of minutes. You can f
 
 ![alt text](./images/img30.png " ")
 
-Examine the *Data Masking* report.
+Examine the **Data Masking** report.
 
 The report shows you how many values, sensitive types, tables, and columns were masked.
 For each sensitive column, the report shows you a sample masked value (if available), the masking format used, and the number of rows masked.
