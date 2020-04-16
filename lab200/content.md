@@ -14,6 +14,7 @@ The following is intended to outline our general product direction. It is intend
 
 To complete this lab, you need to have the following:
 *	Login credentials and a tenancy name for the Oracle Cloud Infrastructure Console
+* A compartment enabled with permission to create and use resources
 *	The ATP-S instance provisioned in Lab 1
 
 ## STEP 1: Register to Data Safe

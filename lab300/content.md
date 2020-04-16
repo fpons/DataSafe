@@ -24,25 +24,18 @@ To complete this lab, you need to have the following:
 
 In the Oracle Data Safe Console, click the **Home** tab, and then click the **Activity Auditing** tab.
 
-![alt text](./images/img01.png " ")
+<!--![alt text](./images/img01.png " ")-->
+<img src="./images/img01.png" alt="picture" width="300" height="400" />
 
-On the **Select Targets for Auditing** page, select the check box for your target database, and then click Continue.
+On the **Select Targets for Auditing** page, select the check box for your target database, and then click **Continue**.
 
 ![alt text](./images/img02.png " ")
 
 On the **Retrieve Audit Policies** page, select the check box for your target database, and then click **Retrieve** to retrieve the audit policies for your database. Wait until a green check mark is displayed in the Retrieval Status column, and then click **Continue**.
 
-![alt text](./images/img03.png " ")
-
-The check mark means that all of the audit policies are successfully retrieved.
-
 ![alt text](./images/img04.png " ")
 
-On the **Review and Provision Audit and Alert Policies** page, review the types of audit policies already enabled on your target database, and then click your target database name to provision more policies.
-
-The check marks under **Additional Policies** means that the Autonomous Transaction Processing (ATP) database has predefined audit policies enabled.
-
-Currently, there are no basic, admin activity, or user activity audit policies provisioned on your database, nor are there any alert policies.
+Click **continue** to reach the **Review and Provision Audit and Alert Policies** page.
 
 Click on the name of your database to open the Edit Policies dialog box.
 
@@ -57,15 +50,15 @@ On the **Audit Policies** tab in the Edit Policies dialog box, notice that the f
 
 ![alt text](./images/img06.png " ")
 
-Expand Oracle Pre-defined Policies to view the list of Oracle predefined audit policies available on your ATP database. By default, the following policies are provisioned:
+Expand **Oracle Pre-defined Policies** to view the list of Oracle predefined audit policies available on your ATP database. By default, the following policies are provisioned:
 
 ![alt text](./images/img07.png " ")
 
-Provision additional policies
+Provision the following additional policies:
 
 ![alt text](./images/img08.png " ")
 
-Notice that the Center for Internet Security (CIS) Configuration policy is not provisioned and enabled by default. Check to enable it, then click **Provision**.
+Also the Center for Internet Security (CIS) Configuration policy is not provisioned and enabled by default. Check to enable it, then click **Provision**.
 
 ![alt text](./images/img09.png " ")
 
