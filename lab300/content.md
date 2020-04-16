@@ -33,7 +33,7 @@ On the **Select Targets for Auditing** page, select the check box for your targe
 
 On the **Retrieve Audit Policies** page, select the check box for your target database, and then click **Retrieve** to retrieve the audit policies for your database. Wait until a green check mark is displayed in the Retrieval Status column, and then click **Continue**.
 
-![alt text](./images/img04.png " ")
+![alt text](./images/img03.png " ")
 
 Click **continue** to reach the **Review and Provision Audit and Alert Policies** page.
 
