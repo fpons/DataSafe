@@ -144,8 +144,7 @@ Replicate the same steps to import table **EMP\_EXTENDED** from emp\_extended.cs
 
 ## STEP 6: Gather statistics on the demo schema
 
-Using your SQL Developer Worksheet connection as ADMIN, run the following statements to gather statistics
-exec DBMS_STATS.GATHER_SCHEMA_STATS('HCM');
+Using your SQL Developer Worksheet connection as ADMIN, run the following statements to gather statistics.
 
 ````
 <copy>
