@@ -194,4 +194,5 @@ End of Lab 5.
 
 ## Acknowledgements ##
 
-- **Author** - Oracle Database Product Management, PTS EMEA - April 2020
+- **Authors** - Adrian Galindo & François Pons, PTS EMEA - April 2020.
+- **Credits** - This lab is based on materials provided by Oracle Database Security Product Management.

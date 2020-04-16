@@ -48,5 +48,5 @@ This section will allow us to discover and anonymize sensitive data in our demo 
 
 ## Acknowledgements
 
-- **Authors** - Adrain Galindo & François Pons, PTS EMEA - April 2020.
+- **Authors** - Adrian Galindo & François Pons, PTS EMEA - April 2020.
 - **Credits** - This lab is based on materials provided by Oracle Database Security Product Management.
